@@ -1,0 +1,21 @@
+
+{
+  "schemaVersion": 1,
+  "id": "cobwebthroughplayers",
+  "version": "${version}",
+  "name": "Cobweb Through Players",
+  "description": "Allows cobweb placement through player hitboxes.",
+  "authors": ["ghostgirl"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ghostgirl.cobwebthroughplayers.CobwebThroughPlayers"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
